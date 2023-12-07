@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="gui.Home">
+  <grid id="27dc6" binding="panel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="922" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="28b5b" binding="panelPulsantiIniziali" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="82418" class="javax.swing.JButton" binding="buttonInserisciNome">
+            <constraints/>
+            <properties>
+              <text value="Inserisci Nome"/>
+            </properties>
+          </component>
+          <component id="3ed98" class="javax.swing.JButton" binding="buttonCittaBorsa">
+            <constraints/>
+            <properties>
+              <text value="Inserisci Citta Borsa"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="370bd" binding="panelAltreFinestre" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="65bcd" class="javax.swing.JButton" binding="buttonListaSocieta">
+            <constraints/>
+            <properties>
+              <text value="Lista Societa"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="92798" binding="panelAzioni" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="4b625" class="javax.swing.JButton" binding="buttonAggiungiSocieta">
+            <constraints/>
+            <properties>
+              <text value="Aggiungi Societa"/>
+            </properties>
+          </component>
+          <component id="3f238" class="javax.swing.JButton" binding="buttonAcquistaAzione">
+            <constraints/>
+            <properties>
+              <text value="Acquista Azione"/>
+            </properties>
+          </component>
+          <component id="c5c30" class="javax.swing.JButton" binding="buttonModificaValoreAzione">
+            <constraints/>
+            <properties>
+              <text value="Modifica Valore Azione"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="eddc" binding="panelStato" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="33016" class="javax.swing.JLabel" binding="txtDisponibilita">
+            <constraints/>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="19a44" class="javax.swing.JLabel" binding="txtBilancio">
+            <constraints/>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
